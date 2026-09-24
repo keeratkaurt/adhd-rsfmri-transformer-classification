@@ -4,7 +4,7 @@ PyTorch reference implementation of a transformer encoder for classifying ADHD f
 
 ## Project overview
 
-This BIPN 162 Neural Data Science team project investigated whether self-attention can capture distributed connectivity patterns that distinguish ADHD from healthy controls. Resting-state fMRI scans were preprocessed with DPARSF, regional time series were extracted with the AAL-116 atlas, and Pearson correlations produced one 116 × 116 functional-connectivity matrix per participant.
+This Neural Data Science team project investigated whether self-attention can capture distributed connectivity patterns that distinguish ADHD from healthy controls. Resting-state fMRI scans were preprocessed with DPARSF, regional time series were extracted with the AAL-116 atlas, and Pearson correlations produced one 116 × 116 functional-connectivity matrix per participant.
 
 The dataset described in the report contained 162 usable participants after excluding scans with missing imaging data. The experimental configuration used five-fold cross-validation, Adam optimization, a learning rate of 0.001, a batch size of 32, and 400 epochs.
 
